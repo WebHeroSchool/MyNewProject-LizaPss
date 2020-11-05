@@ -1,7 +1,38 @@
+
+p{
+  color:blue;
+}
+
 body{
   font-family: 'Roboto';
 }
 
-p{
-  color:red;
+.main-content__title{
+  font-family:'PT Serif';
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu{
+width: max-content
+display: flex;
+}
+
+.wrapper{
+  margin: auto;
+  width: 80%;
+  border: dashed 1px red;
+}
+
+.logo,.menu{
+  display: inline-block;
+  border: dashed 1px red;
+}
+
+.logo{
+  margin-right: 63%;
+  padding: 40px 0;
 }
