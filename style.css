@@ -1,12 +1,15 @@
 
 p {
   color: blue;
-  font-family: 'PT Serif'
 }
 
 body {
   font-family: 'Roboto';
   margin: 0;
+}
+
+.main-content__title {
+  font-family: 'PT Serif';
 }
 
 .wrapper {
