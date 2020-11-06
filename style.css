@@ -1,17 +1,11 @@
 
 p {
   color: blue;
+  font-family: 'PT Serif'
 }
 
 body {
   font-family: 'Roboto';
-}
-
-.main-content__title {
-  font-family:'PT Serif';
-}
-
-body {
   margin: 0;
 }
 
@@ -25,13 +19,14 @@ body {
   justify-content: space-between;
 }
 
-.logo,.menu {
+.logo,
+.menu {
   display: inline-block;
 }
 
 .logo {
   padding: 40px 0;
-  margin-right: 63%
+  margin-right: 63%;
 }
 
 .menu {
