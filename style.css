@@ -1,7 +1,46 @@
-body{
-  font-family: 'Roboto';
+
+p {
+  color: blue;
 }
 
-p{
-  color:red;
+body {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.main-content__title {
+  font-family: 'PT Serif', serif;
+}
+
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+.menu {
+  display: inline-block;
+}
+
+.logo {
+  padding: 40px 0;
+  margin-right: 63%;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
