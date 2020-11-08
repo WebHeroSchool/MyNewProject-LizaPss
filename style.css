@@ -63,12 +63,24 @@ body {
 }
 
 .menu__item {
-  padding: 0 13px;
-  font: 500 18/21px 'Roboto', arial, helvetica, sans-serif;
-  font-style: normal;
+  position: relative;
+  margin-right: 26px;
+  font: 500 18/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
+  text-decoration: none;
+}
+
+.menu__item_active::after {
+  position: absolute;
+  display: block;
+  content: '';
+  left: 0;
+  width: 61px;
+  height: 3px;
+  background: #0056ec;
+  border: dashed 1px red;
 }
 
 .menu__item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
