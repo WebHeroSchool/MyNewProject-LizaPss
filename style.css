@@ -1,17 +1,3 @@
-
-p {
-  color: blue;
-}
-
-body {
-  font-family: 'Roboto';
-  margin: 0;
-}
-
-.main-content__title {
-  font-family: 'PT Serif', serif;
-}
-
 .wrapper {
   margin: auto;
   width: 80%;
@@ -63,7 +49,8 @@ body {
 .menu__item {
   position: relative;
   margin-right: 26px;
-  font: 500 18/21px Roboto, arial, helvetica, sans-serif;
+  font-family: 'Roboto';
+  font: 500 18px/21px 'Roboto', arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.5s;
@@ -102,5 +89,45 @@ body {
 }
 
 .menu__item:last-child {
+  display: flex;
   margin-right: 0;
+}
+
+.main {
+  padding: 0 63% 100px 0;
+  background-position: center right;
+  background: url(img/frame.svg) no-repeat top right;
+}
+
+.main__title-text_highlight {
+  background: #ecf3ff;
+}
+
+.main__title {
+  margin-bottom: 0 0 40px 0;
+  font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
+}
+
+.main__subtitle {
+  margin-bottom: 0 0 41px 0;
+  font: 500 18px/21px 'Roboto', arial, helvetica, serif;
+}
+
+.main__button {
+  display: inline-block;
+  font: 500 14px/16px 'Roboto', arial, helvetica, serif;
+  color: #fff;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 4px;
+  outline: none;
+  background-image: linear-gradient(45deg, #4d84e3 0%, #0056ec 50%, #2180bf 100%);
+  background-position: 100% 0;
+  background-size: 200% 200%;
+  box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
+  transition: 0.5s;
+}
+.main__button:hover {
+  box-shadow: 0 0 032px 0 rgba(0, 40, 120, 0);
+  background-position: 0 0;
 }
