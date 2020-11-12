@@ -95,8 +95,7 @@
 
 .main {
   padding: 0 63% 100px 0;
-  background-position: center right;
-  background: url(img/frame.svg) no-repeat top right;
+  background: top right no-repeat url(img/frame.svg);
 }
 
 .main__title-text_highlight {
@@ -110,7 +109,7 @@
 
 .main__subtitle {
   margin-bottom: 0 0 41px 0;
-  font: 500 18px/21px 'Roboto', arial, helvetica, serif;
+  font: 500 18px/21px Roboto, arial, helvetica, serif;
 }
 
 .main__button {
@@ -127,6 +126,7 @@
   box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
   transition: 0.5s;
 }
+
 .main__button:hover {
   box-shadow: 0 0 032px 0 rgba(0, 40, 120, 0);
   background-position: 0 0;
