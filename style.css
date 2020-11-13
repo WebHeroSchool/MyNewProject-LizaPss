@@ -6,6 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
 
 .logo,
@@ -93,7 +94,7 @@
 }
 
 .main {
-  padding: 0 63% 100px 0;
+  padding: 50px 63% 100% 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
@@ -102,20 +103,21 @@
 }
 
 .main__title {
-  margin-bottom: 0 0 40px 0;
-  font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
+  margin: 0 0 40px 0;
+  font: 700 66px/87px pt_serifbold, arial, helvetica, serif;
 }
 
 .main__subtitle {
-  margin-bottom: 0 0 41px 0;
-  font: 500 18px/21px Roboto, arial, helvetica, serif;
+  margin: 0 0 41px 0;
+  width: 80%;
+  font: 400 22px/26px Roboto, arial, helvetica, serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 14px/16px 'Roboto', arial, helvetica, serif;
+  font: 500 18px/21px 'Roboto', arial, helvetica, serif;
   color: #fff;
-  padding: 14px 16px;
+  padding: 18px 21px;
   text-decoration: none;
   border-radius: 4px;
   outline: none;
