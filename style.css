@@ -6,7 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 150px;
+  margin-bottom: 151px;
 }
 
 .logo,
@@ -94,7 +94,7 @@
 }
 
 .main {
-  padding: 50px 63% 100% 0;
+  padding: 49px 63% 100% 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
