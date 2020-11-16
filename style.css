@@ -147,6 +147,10 @@
     display: none;
   }
 
+  .menu__item::after {
+    display: none;
+  }
+
   .logo-name {
     display: none;
   }
@@ -158,11 +162,12 @@
     justify-content: center;
     text-align: center;
     padding: 74% 0 0;
-    background-size: 74%;
+    background: no-repeat url(img/img-mob.svg);
     background-position: top center;
   }
 
   .main__title {
+    margin-top: 32px;
     margin-bottom: 44px;
     font: 700 30px/40px pt_serifbold, arial, helvetica, serif;
   }
@@ -173,7 +178,7 @@
   }
 
   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, serif;
+    font: 500 13px/16px Roboto, arial, helvetica, serif;
   }
 
   #menu__toggle {
@@ -213,7 +218,11 @@
   }
 
   .menu__box {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     visibility: hidden;
     top: 0;
@@ -221,21 +230,19 @@
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 50% 0 50% 0;
+    padding: 0;
     list-style: none;
     background-color: #fff;
     box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
     padding: 24px 0 0;
     color: #000;
     font: 500 30px/35px Roboto, arial, helvetica sans-serif;
     text-decoration: none;
+    transform: t
   }
 
   .menu__item:hover {
@@ -260,5 +267,22 @@
     visibility: visible;
     left: 0;
   }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .wrapper {
+    margin: auto;
+    width: 90%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 151px;
+  }
+
+
 
 }
