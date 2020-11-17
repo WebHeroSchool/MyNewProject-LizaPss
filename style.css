@@ -94,7 +94,7 @@
 }
 
 .main {
-  padding: 49px 63% 100% 0;
+  padding: 49px 53% 100% 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
@@ -136,7 +136,6 @@
 .menu__box {
   display: none;
 }
-
 
 @media (max-width: 768px) {
   .header {
@@ -233,20 +232,20 @@
     padding: 0;
     list-style: none;
     background-color: #fff;
-    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
   }
 
   .menu__item {
     text-align: center;
     padding: 24px 0 0;
     color: #000;
-    font: 500 30px/35px Roboto, arial, helvetica sans-serif;
+    font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
     transform: t
   }
 
   .menu__item:hover {
-    background-color: #CFD8DC;
+    background-color: #cfв8dc;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -271,18 +270,79 @@
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header {
+    margin-bottom: 120px;
+  }
 
   .wrapper {
     margin: auto;
     width: 90%;
   }
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 151px;
+  .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, serif;
   }
 
+  .main {
+    width: 90%;
+    padding: 20px 12% 100% 0;
+    background: no-repeat top right url(img/frame1024.svg);
+  }
 
+  .main__title {
+    margin-right: 30%;
+    margin-bottom: 40px;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
+  }
+
+  .main__subtitle {
+    width: 367px;
+    margin-bottom: 41px;
+    font: 500 18px/21px Roboto, arial, helvetica, serif;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', arial, helvetica, serif;
+    padding: 14px 16px;
+  }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+  .header {
+    margin-bottom: 90px;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 70%;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, serif;
+  }
+
+  .main {
+    width: 90%;
+    padding: 10px 8% 100% 0;
+    background: no-repeat top right url(img/frame1024.svg);
+  }
+
+  .main__title {
+    margin-right: 30%;
+    margin-bottom: 40px;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
+  }
+
+  .main__subtitle {
+    width: 367px;
+    margin-bottom: 41px;
+    font: 500 18px/21px Roboto, arial, helvetica, serif;
+  }
+
+  .main__button {
+    font: 500 14px/16px 'Roboto', arial, helvetica, serif;
+    padding: 14px 16px;
+  }
 
 }
