@@ -241,11 +241,10 @@
     color: #000;
     font: 500 30px/35px Roboto, arial, helvetica, sans-serif;
     text-decoration: none;
-    transform: t
   }
 
   .menu__item:hover {
-    background-color: #cfв8dc;
+    background-color: #cfb8dc;
   }
 
   #menu__toggle:checked ~ .menu__btn > span {
@@ -305,7 +304,6 @@
     font: 500 14px/16px 'Roboto', arial, helvetica, serif;
     padding: 14px 16px;
   }
-
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
@@ -344,5 +342,4 @@
     font: 500 14px/16px 'Roboto', arial, helvetica, serif;
     padding: 14px 16px;
   }
-
 }
