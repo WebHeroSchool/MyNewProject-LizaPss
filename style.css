@@ -6,7 +6,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 151px;
+  margin-bottom: 147px;
 }
 
 .logo,
@@ -16,7 +16,7 @@
 
 .logo {
   position: relative;
-  padding: 40px 0;
+  padding: 30px 0;
   padding-left: 44px;
   font: bold 24px/31px pt_serifbold, arial, helvetica, sans-serif;
 }
@@ -45,6 +45,7 @@
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 10px;
 }
 
 .menu__item {
@@ -94,7 +95,7 @@
 }
 
 .main {
-  padding: 49px 53% 100% 0;
+  padding: 68px 53% 100% 0;
   background: top right no-repeat url(img/frame.svg);
 }
 
@@ -109,7 +110,7 @@
 
 .main__subtitle {
   margin: 0 0 41px 0;
-  width: 80%;
+  width: 60%;
   font: 400 22px/26px Roboto, arial, helvetica, serif;
 }
 
@@ -139,7 +140,12 @@
 
 @media (max-width: 768px) {
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 21px;
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 90%;
   }
 
   .menu {
@@ -166,13 +172,14 @@
   }
 
   .main__title {
-    margin-top: 32px;
-    margin-bottom: 44px;
+    margin-top: 20px;
+    margin-bottom: 30px;
     font: 700 30px/40px pt_serifbold, arial, helvetica, serif;
   }
 
   .main__subtitle {
-    margin-bottom: 25px;
+    width: 75%;
+    margin-bottom: 22px;
     font: 500 16px/19px Roboto, arial, helvetica, serif;
   }
 
@@ -188,7 +195,7 @@
     display: flex;
     align-items: center;
     position: fixed;
-    top: 32px;
+    top: 27px;
     right: 24px;
     width: 26px;
     height: 26px;
@@ -269,12 +276,16 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .header {
-    margin-bottom: 120px;
+    margin-bottom: 93px;
   }
 
   .wrapper {
     margin: auto;
-    width: 90%;
+    width: 92%;
+  }
+
+  .menu {
+    padding-top: 10px;
   }
 
   .menu__item {
@@ -282,8 +293,8 @@
   }
 
   .main {
-    width: 90%;
-    padding: 20px 12% 100% 0;
+    width: 92%;
+    padding: 20px 8% 100% 0;
     background: no-repeat top right url(img/frame1024.svg);
   }
 
@@ -307,12 +318,17 @@
 
 @media screen and (min-width: 1025px) and (max-width: 1366px) {
   .header {
-    margin-bottom: 90px;
+    margin-bottom: 100px;
   }
 
   .wrapper {
     margin: auto;
-    width: 70%;
+    width: 69%;
+  }
+
+  .menu {
+    padding-top: 10px;
+    margin-right: 7px;
   }
 
   .menu__item {
@@ -321,7 +337,7 @@
 
   .main {
     width: 90%;
-    padding: 10px 8% 100% 0;
+    padding: 10px 10% 100% 0;
     background: no-repeat top right url(img/frame1024.svg);
   }
 
