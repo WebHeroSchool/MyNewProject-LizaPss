@@ -11,7 +11,7 @@
 
 .logo,
 .menu {
-  display: inline-block
+  display: inline-block;
 }
 
 .logo {
@@ -119,11 +119,11 @@
 }
 
 @keyframes main {
-0% {
-  opacity: 0;
-}
-100% {
-  opacity: 1;
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -141,7 +141,6 @@
   animation-name: main;
   animation-duration: 1.5s;
 }
-
 
 .main__button {
   display: inline-block;
@@ -180,10 +179,6 @@
   }
 
   .menu {
-    display: none;
-  }
-
-  .menu__item::after {
     display: none;
   }
 
