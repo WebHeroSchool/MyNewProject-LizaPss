@@ -119,10 +119,10 @@
 }
 
 @keyframes main {
-  0% {
+  from {
     opacity: 0;
   }
-  100% {
+  to {
     opacity: 1;
   }
 }
