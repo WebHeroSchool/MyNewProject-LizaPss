@@ -407,7 +407,7 @@
   }
 
   .main__button {
-    font: 500 14px/16px Roboto, arial, helvetica, serif;
+    font: 500 14px/16px 'Roboto', arial, helvetica, serif;
     padding: 14px 16px;
   }
 }
