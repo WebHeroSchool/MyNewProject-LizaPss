@@ -22,8 +22,7 @@
 }
 
 .logo-name {
-  animation-name: main;
-  animation-duration: 2s;
+  animation: main 2s;
 }
 
 .logo__circle {
@@ -35,8 +34,7 @@
   height: 28px;
   border-radius: 50%;
   opacity: 0.7;
-  animation-name: main;
-  animation-duration: 1s;
+  animation: main 1s;
 
 }
 
@@ -62,8 +60,7 @@
   font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
-  animation-name: main;
-  animation-duration: 2s;
+  animation: main 2s;
 }
 
 .menu__item_active::after {
@@ -74,8 +71,7 @@
   width: 100%;
   height: 3px;
   background: #0056ec;
-  animation-name: main;
-  animation-duration: 1s;
+  animation: main 1s;
 }
 
 .menu__item:hover {
@@ -109,9 +105,7 @@
 .main {
   padding: 68px 53% 100% 0;
   background: top right no-repeat url(img/frame.svg);
-  animation-name: main;
-  animation-duration: 2.5s;
-
+  animation: main 2.5s;
 }
 
 .main__title-text_highlight {
@@ -131,16 +125,14 @@
 .main__title {
   margin: 0 0 40px 0;
   font: 700 66px/87px pt_serifbold, arial, helvetica, serif;
-  animation-name: main;
-  animation-duration: 1s;
+  animation: main 1s;
 }
 
 .main__subtitle {
   margin: 0 0 41px 0;
   width: 60%;
   font: 400 22px/26px Roboto, arial, helvetica, serif;
-  animation-name: main;
-  animation-duration: 1.5s;
+  animation: main 1.5s;
 }
 
 .main__button {
@@ -151,13 +143,12 @@
   text-decoration: none;
   border-radius: 4px;
   outline: none;
-  background-image: linear-gradient(45deg, #4d84e3 0%, #0056ec 50%, #2180bf 100%);
+  background-image: linear-gradient(45deg, #2466f2 0%, #0056ec 50%, #2180bf 100%);
   background-position: 100% 0;
   background-size: 200% 200%;
   box-shadow: 0 16px 32px 0 rgba(0, 40, 120, 0.35);
   transition: 0.5s;
-  animation-name: main;
-  animation-duration: 2s;
+  animation: main 2s;
 }
 
 .main__button:hover {
@@ -179,11 +170,8 @@
     width: 90%;
   }
 
+  .logo-name,
   .menu {
-    display: none;
-  }
-
-  .logo-name {
     display: none;
   }
 
@@ -194,13 +182,11 @@
     justify-content: center;
     text-align: center;
     padding: 74% 0 0;
-    background: no-repeat url(img/img-mob.svg);
-    background-position: top center;
+    background: no-repeat top center url(img/img-mob.svg);
   }
 
   .main__title {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin: 20px 0 30px 0;
     font: 700 30px/40px pt_serifbold, arial, helvetica, serif;
   }
 
@@ -255,7 +241,6 @@
   .menu__box {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
     justify-content: center;
     position: fixed;
@@ -353,8 +338,7 @@
   }
 
   .main__title {
-    margin-right: 30%;
-    margin-bottom: 40px;
+    margin: 0 30% 40px 0;
     font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
   }
 
@@ -365,7 +349,7 @@
   }
 
   .main__button {
-    font: 500 14px/16px 'Roboto', arial, helvetica, serif;
+    font: 500 14px/16px Roboto, arial, helvetica, serif;
     padding: 14px 16px;
   }
 }
@@ -397,13 +381,11 @@
 
   .main__title {
     margin-right: 30%;
-    margin-bottom: 40px;
     font: 700 50px/66px pt_serifbold, arial, helvetica, serif;
   }
 
   .main__subtitle {
     width: 367px;
-    margin-bottom: 41px;
     font: 500 18px/21px Roboto, arial, helvetica, serif;
   }
 
